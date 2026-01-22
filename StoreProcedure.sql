@@ -1,3 +1,4 @@
+--Create procedure Practice   --> This to create a new procedure in the system
 Alter procedure Practice
 -- Optional Or Parameter
 @Department varchar(50),
