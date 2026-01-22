@@ -8,6 +8,9 @@
 
 -- This will lead to data inconsistsy and to hurt the acid Principles in DBMS.
 
+--HOW TO Achive this is: USE OF TRIGGERS :
+
+
 
 GO
 UPDATE Employee
