@@ -11,7 +11,7 @@ ALTER PROCEDURE Sp_GetemployesDetailsBySalaryAndDepartment
 AS
 BEGIN
 	SELECT * FROM Employee
-	WHERE Department = @department AND Salary <= @salary;
+	WHERE Department = @department OR Salary <= @salary;
 END
 GO
 EXEC Sp_GetemployesDetailsBySalaryAndDepartment 'IT', 70000
