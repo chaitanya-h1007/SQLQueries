@@ -18,6 +18,8 @@ BEGIN
 	SET Department = 'HR' , Salary = 65000
 	WHERE EmployeeID = @Id;
 
+
+	--Select Query
 	SELECT * FROM Employee;
 END
 GO
